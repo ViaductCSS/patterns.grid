@@ -1,0 +1,23 @@
+{
+  "name": "viaduct.patterns.grid",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ViaductCSS/patterns.grid",
+  "authors": [
+    "Ben Cooper <ben.cooper@thap.co.uk>"
+  ],
+  "description": "Patterns Grid Partial for the Viaduct CSS Framework",
+  "keywords": [
+    "viaduct-css-framework",
+    "css-framework",
+    "sass",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,4 +1,10 @@
 // =============================
+// Enable Private Variables
+// =============================
+
+$_global-box-sizing: $global-box-sizing;
+
+// =============================
 // Core Grid Element Styling
 // =============================
 
@@ -38,11 +44,11 @@
         text-rendering: auto;                                        // 1
         word-spacing: normal;                                        // 1
         display: inline-block;                                       // 2
-        padding-left: calc-rem($base-spacing-unit, $base-font-size); // 3
         vertical-align: top;                                         // 4
+        padding-left: calc-rem($base-spacing-unit, $base-font-size); // 3
         width: 100%;                                                 // 5
 
-        @if $global-box-sizing == false {
+        @if $_global-box-sizing == false {
             box-sizing: border-box;                                  // 6
         }
     }
